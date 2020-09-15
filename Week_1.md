@@ -1,5 +1,5 @@
-#Week 1 Introduction
+Week 1 Introduction
 -----
-#####Supervised Learning
+Supervised Learning
 Already knew the correct output
 Two categories: Regression and Classification
