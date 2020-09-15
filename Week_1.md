@@ -1,13 +1,13 @@
 Week 1 Introduction
 -----
-####Supervised Learning
+Supervised Learning
 
 Already knew the correct output 
 
 Two categories: Regression and Classification
 
 -----
-####Unsupervised Learning
+Unsupervised Learning
 
 Have no idea about what the results will be like
 
