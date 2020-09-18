@@ -1,0 +1,19 @@
+1. size() gives the size of the matrix. It is actually a 1x2 matrix.
+
+2. length() gives the longest dimension.
+
+3. pwd:current path
+
+4. "who" shows all the variables in the current scope. "whos" gives the detail of these variables.
+
+5. 载入文件，先cd更换文件夹，然后load+文件名。比如载入featuresX.dat文件，可以写为load festuresX.dat或者load('featuresX.dat')。然后，键入文件名featuresX，会罗列出所有内容。
+
+6. v = priceY(1:10) 将priceY前十行赋值给v。save hello.mat v，将v存入hello.mat中。save hello.txt v -ascii，将v用ASCII编码存入hello.txt中。
+
+7. clear: clear all variables.
+
+8. A(2,:) shows every element in the 2nd row. (":" means every element.) A(:,2) shows everything in the 2nd column. 此操作也可以赋值。
+
+9. A = [A, [100:101:102]] adds a column of [100:101:102] to the matrix A.
+
+10. C = [A, B] 把俩矩阵拼接起来，A在左B在右。 C = [A; B] 把俩矩阵拼接起来，A在上B在下。
