@@ -1,0 +1,33 @@
+1. A*B表示矩阵乘法，A.*B表示相同位置元素的相乘（A和B必须维度相同）。
+
+2. A.^2表示A中每个元素各自平方。
+
+3. 1./A表示A中每个元素单纯地取他们的倒数。（各自取倒数）
+
+4. log(A)对每个元素log, exp(A)对每个元素x求e^x, abs(A)求绝对值。
+
+5. 给v中每个元素加一：v+ones(length(v),1)或者v+1。
+
+6. A‘表示A的Transpose。
+
+7. a=[1 2 3 4 5], val=max(a)得到val=5，[val,ind]=max(a)得到[5,5]，其中ind代表下标。输入a<3，输出为[1 1 0 0 0]，1表示这一位的数满足a<3，0反之。find(a<3)，打印所有满足a<3的数的下标。
+
+8. magic()生成行，列，对角线的和都相同的矩阵。
+
+9. [r,c]=find(A>=7)，得到r为满足>=7的数的行数，c为列数，组合起来为位置。
+
+10. sum(A)返回所有元素的和，prod(A)返回所有元素的乘积。
+
+11. floor(A)取下界，ceil(A)取上界。
+
+12. max[A,[],1] takes the colomn-wise maximum. max[A,[],2] takes the row-wise maximum.
+
+13. max(max(A)) gives the entire maximum in A.
+
+14. A(:) gives a vector of all elements in A.
+
+15. sum(A,1) adds up each column. sum(A,2) adds up each row.
+
+16. flipud(eye(9)) 将对角线翻转为另一条。
+
+17. pinv(A) suggests the inverse of A.
