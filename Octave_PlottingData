@@ -1,0 +1,17 @@
+1. plot(t,y)，t为横轴，y为竖轴。
+
+2. 如果要同时显示几个图，用hold on函数。plot(t,y,'r')中r代表red，即绘图颜色。
+
+3. xlabel('time')将x轴标注为时间。
+
+4. legend('sin','cos')在右上角对曲线进行标注。title('myplot')写出给出标题。print -dpng myPlot.png 生成png图片。
+
+5. figure(1);plot(t,y1);figure(2);plot(t,y2); 生成两个figure。
+
+6. subplot(1,2,1) divides plot a 1x2 grid and access first element.
+
+7. axis([0.5 1 -1 1]) sets x range and y range.
+
+8. clf clears the figure. 
+
+9. imagesc(A) gives a figure of matrix. imagesc(A).colorbar.colormap gray
